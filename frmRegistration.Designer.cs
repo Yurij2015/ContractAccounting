@@ -65,7 +65,7 @@
             this.groupBox1.Size = new System.Drawing.Size(369, 226);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Registration";
+            this.groupBox1.Text = "Регистрация пользователя";
             // 
             // txtAnswer
             // 
@@ -79,21 +79,21 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(51, 187);
+            this.label6.Location = new System.Drawing.Point(37, 187);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 15);
+            this.label6.Size = new System.Drawing.Size(44, 15);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Answer";
+            this.label6.Text = "Ответ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(42, 158);
+            this.label5.Location = new System.Drawing.Point(37, 158);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 15);
+            this.label5.Size = new System.Drawing.Size(49, 15);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Question";
+            this.label5.Text = "Вопрос";
             // 
             // cobQuestion
             // 
@@ -110,11 +110,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(65, 129);
+            this.label4.Location = new System.Drawing.Point(37, 129);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 15);
+            this.label4.Size = new System.Drawing.Size(36, 15);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Role";
+            this.label4.Text = "Роль";
             // 
             // cobRole
             // 
@@ -137,7 +137,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(59, 104);
+            this.label3.Location = new System.Drawing.Point(37, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 15);
             this.label3.TabIndex = 4;
@@ -158,9 +158,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(37, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 15);
+            this.label2.Size = new System.Drawing.Size(51, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password";
+            this.label2.Text = "Пароль";
             // 
             // txtUserName
             // 
@@ -174,11 +174,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(28, 42);
+            this.label1.Location = new System.Drawing.Point(37, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 15);
+            this.label1.Size = new System.Drawing.Size(44, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "User Name";
+            this.label1.Text = "Логин ";
             // 
             // btnRegistration
             // 
@@ -187,7 +187,7 @@
             this.btnRegistration.Name = "btnRegistration";
             this.btnRegistration.Size = new System.Drawing.Size(90, 29);
             this.btnRegistration.TabIndex = 12;
-            this.btnRegistration.Text = "Register";
+            this.btnRegistration.Text = "Регистрация";
             this.btnRegistration.UseVisualStyleBackColor = true;
             this.btnRegistration.Click += new System.EventHandler(this.BtnRegistration_Click);
             // 
@@ -200,7 +200,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmRegistration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Registration";
+            this.Text = "Регистрация пользователя";
             this.Load += new System.EventHandler(this.Registration_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

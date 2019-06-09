@@ -54,7 +54,7 @@
             this.groupBox1.Size = new System.Drawing.Size(384, 187);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Login";
+            this.groupBox1.Text = "Авторизация в система";
             // 
             // btnExit
             // 
@@ -63,7 +63,7 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(80, 32);
             this.btnExit.TabIndex = 6;
-            this.btnExit.Text = "Exit";
+            this.btnExit.Text = "Отмена";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnEnd_Click);
             // 
@@ -74,7 +74,7 @@
             this.btnForgotPassword.Name = "btnForgotPassword";
             this.btnForgotPassword.Size = new System.Drawing.Size(119, 32);
             this.btnForgotPassword.TabIndex = 5;
-            this.btnForgotPassword.Text = "Forgot Password?";
+            this.btnForgotPassword.Text = "Забыли пароль?";
             this.btnForgotPassword.UseVisualStyleBackColor = true;
             this.btnForgotPassword.Click += new System.EventHandler(this.btnForgotPassword_Click);
             // 
@@ -102,7 +102,7 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(80, 32);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Войти";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -112,19 +112,19 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(25, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 15);
+            this.label2.Size = new System.Drawing.Size(51, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Password";
+            this.label2.Text = "Пароль";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(34, 44);
+            this.label1.Location = new System.Drawing.Point(25, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 15);
+            this.label1.Size = new System.Drawing.Size(84, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Email ID";
+            this.label1.Text = "Логин (Email)";
             // 
             // frmLogin
             // 
@@ -134,7 +134,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "Авторизация в системе";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

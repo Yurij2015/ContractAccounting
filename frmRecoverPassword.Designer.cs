@@ -62,7 +62,7 @@
             this.groupBox3.Size = new System.Drawing.Size(586, 96);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Change Password";
+            this.groupBox3.Text = "Изменить пароль";
             // 
             // txtConfirmNewPassword
             // 
@@ -80,7 +80,7 @@
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(93, 54);
             this.btnChangePassword.TabIndex = 3;
-            this.btnChangePassword.Text = "Change Password";
+            this.btnChangePassword.Text = "Сохранить пароль";
             this.btnChangePassword.UseVisualStyleBackColor = true;
             this.btnChangePassword.Click += new System.EventHandler(this.BtnChangePassword_Click);
             // 
@@ -90,9 +90,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(14, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 15);
+            this.label4.Size = new System.Drawing.Size(91, 15);
             this.label4.TabIndex = 5;
-            this.label4.Text = "New Password";
+            this.label4.Text = "Новый пароль";
             // 
             // txtNewPassword
             // 
@@ -109,9 +109,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(14, 64);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(135, 15);
+            this.label5.Size = new System.Drawing.Size(100, 15);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Confirm New Password";
+            this.label5.Text = "Пароль еще раз";
             // 
             // groupBox2
             // 
@@ -126,7 +126,7 @@
             this.groupBox2.Size = new System.Drawing.Size(586, 96);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Security Question and Answer";
+            this.groupBox2.Text = "Защитный вопрос и ответ";
             // 
             // txtQuestion
             // 
@@ -144,7 +144,7 @@
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(93, 28);
             this.btnSubmit.TabIndex = 3;
-            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.Text = "Проверить";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
             // 
@@ -154,9 +154,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(47, 35);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 15);
+            this.label3.Size = new System.Drawing.Size(49, 15);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Question";
+            this.label3.Text = "Вопрос";
             // 
             // txtAnswer
             // 
@@ -172,9 +172,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(47, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 15);
+            this.label2.Size = new System.Drawing.Size(44, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Answer";
+            this.label2.Text = "Ответ";
             // 
             // groupBox1
             // 
@@ -187,7 +187,7 @@
             this.groupBox1.Size = new System.Drawing.Size(587, 78);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Recover Password";
+            this.groupBox1.Text = "Восстановить пароль";
             // 
             // txtEmailID
             // 
@@ -203,9 +203,9 @@
             this.btnRecover.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRecover.Location = new System.Drawing.Point(452, 28);
             this.btnRecover.Name = "btnRecover";
-            this.btnRecover.Size = new System.Drawing.Size(93, 29);
+            this.btnRecover.Size = new System.Drawing.Size(99, 30);
             this.btnRecover.TabIndex = 1;
-            this.btnRecover.Text = "Recover";
+            this.btnRecover.Text = "Восстановить";
             this.btnRecover.UseVisualStyleBackColor = true;
             this.btnRecover.Click += new System.EventHandler(this.BtnRecover_Click);
             // 
@@ -215,9 +215,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(46, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.Size = new System.Drawing.Size(122, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Enter Email Id";
+            this.label1.Text = "Введите свой Email";
             // 
             // frmRecoverPassword
             // 
@@ -229,7 +229,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmRecoverPassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Recover Password";
+            this.Text = "Восстановление пароля";
             this.Load += new System.EventHandler(this.RecoverPassword_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

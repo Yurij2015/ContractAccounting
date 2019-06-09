@@ -46,8 +46,9 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(554, 293);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome Message";
+            this.label1.Text = "Административная панель";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // menuStrip1
             // 
@@ -67,35 +68,35 @@
             this.changePasswordToolStripMenuItem,
             this.userManagementToolStripMenuItem});
             this.masterToolStripMenuItem.Name = "masterToolStripMenuItem";
-            this.masterToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.masterToolStripMenuItem.Text = "Master";
+            this.masterToolStripMenuItem.Size = new System.Drawing.Size(179, 20);
+            this.masterToolStripMenuItem.Text = "Управление пользователями";
             // 
             // userRegistrationToolStripMenuItem
             // 
             this.userRegistrationToolStripMenuItem.Name = "userRegistrationToolStripMenuItem";
-            this.userRegistrationToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.userRegistrationToolStripMenuItem.Text = "User Registration";
+            this.userRegistrationToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
+            this.userRegistrationToolStripMenuItem.Text = "Регистрация пользователей";
             this.userRegistrationToolStripMenuItem.Click += new System.EventHandler(this.userRegistrationToolStripMenuItem_Click);
             // 
             // changePasswordToolStripMenuItem
             // 
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
+            this.changePasswordToolStripMenuItem.Text = "Изменить пароль";
             this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // userManagementToolStripMenuItem
             // 
             this.userManagementToolStripMenuItem.Name = "userManagementToolStripMenuItem";
-            this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.userManagementToolStripMenuItem.Text = "User Management";
+            this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
+            this.userManagementToolStripMenuItem.Text = "Пользователи";
             this.userManagementToolStripMenuItem.Click += new System.EventHandler(this.userManagementToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.logOutToolStripMenuItem.Text = "Log Out";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.logOutToolStripMenuItem.Text = "Выход";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // frmAdmin
@@ -108,7 +109,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Admin";
+            this.Text = "Панель администратора";
             this.Load += new System.EventHandler(this.AdminHome_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -63,7 +63,7 @@
             this.groupBox1.Size = new System.Drawing.Size(513, 193);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "User Information";
+            this.groupBox1.Text = "Информация пользователя";
             // 
             // btnSave
             // 
@@ -72,7 +72,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(78, 23);
             this.btnSave.TabIndex = 8;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Сохранить";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
@@ -80,11 +80,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(66, 145);
+            this.label6.Location = new System.Drawing.Point(40, 145);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
+            this.label6.Size = new System.Drawing.Size(64, 15);
             this.label6.TabIndex = 7;
-            this.label6.Text = "Active";
+            this.label6.Text = "Активный";
             // 
             // chkIsActived
             // 
@@ -100,11 +100,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(66, 107);
+            this.label5.Location = new System.Drawing.Point(29, 107);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 15);
+            this.label5.Size = new System.Drawing.Size(36, 15);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Role";
+            this.label5.Text = "Роль";
             // 
             // cobRole
             // 
@@ -128,7 +128,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(60, 75);
+            this.label4.Location = new System.Drawing.Point(29, 75);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 15);
             this.label4.TabIndex = 2;
@@ -149,9 +149,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(29, 43);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 15);
+            this.label3.Size = new System.Drawing.Size(41, 15);
             this.label3.TabIndex = 0;
-            this.label3.Text = "User Name";
+            this.label3.Text = "Логин";
             // 
             // btnSearch
             // 
@@ -160,7 +160,7 @@
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(89, 33);
             this.btnSearch.TabIndex = 9;
-            this.btnSearch.Text = "Search";
+            this.btnSearch.Text = "Найти";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
@@ -170,9 +170,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 220);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 15);
+            this.label1.Size = new System.Drawing.Size(42, 15);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Search";
+            this.label1.Text = "Поиск";
             // 
             // txtSearch
             // 
@@ -207,7 +207,7 @@
             this.Controls.Add(this.dgvUserdata);
             this.Name = "frmManageUsers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Manage Users";
+            this.Text = "Управление пользователями";
             this.Load += new System.EventHandler(this.ManageUsers_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

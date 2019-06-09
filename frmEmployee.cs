@@ -16,5 +16,17 @@ namespace AdvancedLoginSystem
         {
             InitializeComponent();
         }
+
+        private void LogOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLogin lgn = new frmLogin();
+            this.Hide();
+            lgn.Show();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

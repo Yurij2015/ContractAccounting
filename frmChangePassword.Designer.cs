@@ -54,7 +54,7 @@
             this.groupBox3.Size = new System.Drawing.Size(565, 148);
             this.groupBox3.TabIndex = 9;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Change Password";
+            this.groupBox3.Text = "Изменить";
             // 
             // txtCurrentPassword
             // 
@@ -69,11 +69,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(61, 35);
+            this.label1.Location = new System.Drawing.Point(33, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 15);
+            this.label1.Size = new System.Drawing.Size(138, 15);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Current Password";
+            this.label1.Text = "Существующий пароль";
             // 
             // txtConfirmNewPassword
             // 
@@ -91,7 +91,7 @@
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(93, 53);
             this.btnChangePassword.TabIndex = 3;
-            this.btnChangePassword.Text = "Change Password";
+            this.btnChangePassword.Text = "Сохранить";
             this.btnChangePassword.UseVisualStyleBackColor = true;
             this.btnChangePassword.Click += new System.EventHandler(this.BtnChangePassword_Click);
             // 
@@ -99,11 +99,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(76, 69);
+            this.label4.Location = new System.Drawing.Point(33, 69);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 15);
+            this.label4.Size = new System.Drawing.Size(91, 15);
             this.label4.TabIndex = 5;
-            this.label4.Text = "New Password";
+            this.label4.Text = "Новый пароль";
             // 
             // txtNewPassword
             // 
@@ -120,9 +120,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(33, 101);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(135, 15);
+            this.label5.Size = new System.Drawing.Size(139, 15);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Confirm New Password";
+            this.label5.Text = "Повтор нового пароля";
             // 
             // frmChangePassword
             // 
@@ -132,7 +132,7 @@
             this.Controls.Add(this.groupBox3);
             this.Name = "frmChangePassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ChangePassword";
+            this.Text = "Изменить пароль";
             this.Load += new System.EventHandler(this.ChangePassword_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

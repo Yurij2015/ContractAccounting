@@ -19,7 +19,7 @@ namespace AdvancedLoginSystem
 
         private void AdminHome_Load(object sender, EventArgs e)
         {
-            label1.Text = "Welcome : " + AdvancedLoginSystem.Properties.Settings.Default.UserLog ;
+            label1.Text = "Административный доступ пользователя : " + AdvancedLoginSystem.Properties.Settings.Default.UserLog ;
         }
 
         private void userRegistrationToolStripMenuItem_Click(object sender, EventArgs e)
@@ -45,6 +45,11 @@ namespace AdvancedLoginSystem
             frmLogin lgn = new frmLogin();
             this.Hide();
             lgn.Show();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
